@@ -13,15 +13,14 @@ def init():
     encoder = Encoder()
     display = OledDisplay()
 
-    settings_menu_options = {
-        'title': 'Settings'
-        'items': [
-            {
-                'title':''
-            }
-        ]
-
-    }
+    # settings_menu_options = {
+    #     'title': 'Settings'
+    #     'items': [
+    #         {
+    #             'title':''
+    #         }
+    #     ]
+    # }
 
     # create settings menu
     settings_menu = Menu(display, encoder, 'Settings', ['Effects', 'Banks', 'Current Pedalboard', 'Volume and Gains', 'Headphone', 'Bluetooth'])
